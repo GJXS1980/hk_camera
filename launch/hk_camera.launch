@@ -1,0 +1,8 @@
+<launch>
+
+    <node name="hk_camera_node" pkg="hk_camera" type="hk_camera_node" respawn="false" output="screen">
+    <param name="camera_info_url" value="file://$(find hk_camera)/launch/hg_camera.yaml"/>
+
+    </node>
+
+</launch>
